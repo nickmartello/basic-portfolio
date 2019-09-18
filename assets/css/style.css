@@ -1,0 +1,26 @@
+body, html {
+   
+    background-image: url("/Users/nicholasmartello/Dev/UCF/week2/basic-portfolio/assets/images/shiplap_img.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    }
+    
+header {
+    background: lightblue;
+    padding: 20px;
+}
+
+section {
+    border-style: solid;
+    border-width: 2px;
+
+}
+footer {
+    background: gray;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
