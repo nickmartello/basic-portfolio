@@ -5,15 +5,18 @@ body, html {
     background-position: center;
     background-repeat: repeat;
     }
-    
+
 header {
     background: lightblue;
-    padding: 20px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section {
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid gray;
+    background-color: white;
 
 }
 footer {
@@ -23,4 +26,32 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    border-top: 2px solid orange;
+}
+#name {
+    color: white;
+    background: orange;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#links {
+    margin-right: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 100px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
