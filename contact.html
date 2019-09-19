@@ -8,26 +8,38 @@
     </head>
         <body>
             <header>
-                <div>Nick Martello</div>
-                <a href="index.html">about</a>
-                <a href="portfolio.html">portfolio</a>
-                <a href="contact.html">contact</a>
+                <div id="name">
+                    <h4>Nick Martello</h4>
+                </div>
+                <div id="links">
+                    <a href="index.html">about</a>
+                    |
+                    <a href="portfolio.html">portfolio</a>
+                    |
+                    <a href="contact.html">contact</a>
+                </div>
             </header>
-            <section>
-            <h1>Contact</h1>
-                <nav>
-                    <form>
-                        <input type="text" name="fname" placeholder="John Smith">
-                        <input type="text" name="fname" placeholder="example@gmail.com">
-                        <input type="text" name="fname" placeholder="">
+            <div class="container">
+                <section>
+                    <h1>Contact</h1>
+                    <hr>
+                    <div class="contact-form">
+                        <form>
+                            <label>Name</label>
+                            <input type="text" name="fname" placeholder="John Smith">
+                            <label>Email</label>
+                            <input type="text" name="fname" placeholder="example@gmail.com">
+                            <label>Message</label>
+                            <textarea rows="4" cols="50">
+                            </textarea>
+                        </form>
                     
-                    </form>
-                    <div>
-                        submit
+                        <div class="button-container">
+                            <button>submit</button>
+                        </div>
                     </div>
-
-                </nav>
-            </section>
+                </section>
+            </div>
     <footer>copyright &copy</footer>
         </body>
 </html>
