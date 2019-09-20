@@ -1,7 +1,6 @@
 body, html {
-   
-    background-image: url("/Users/nicholasmartello/Dev/UCF/week2/basic-portfolio/assets/images/shiplap_img.jpeg");
-    height: 100%;
+       background-image: url("https://media.istockphoto.com/photos/white-shiplap-wall-background-picture-id1096245568?k=6&m=1096245568&s=612x612&w=0&h=2KKAIVe_r7As6yx_0Ibq5QSRNMHIMwMpqqO7vL95xZM=");
+    height: 43%;
     background-position: center;
     background-repeat: repeat;
     }
@@ -13,7 +12,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 section {
     border: 2px solid gray;
     background-color: white;
@@ -28,7 +26,6 @@ footer {
     text-align: center;
     border-top: 2px solid orange;
 }
-
 #name {
     color: white;
     background: orange;
@@ -40,14 +37,12 @@ footer {
     text-align: center;
     margin-left: 100px;
 }
-
 #links {
     margin-right: 100px;
     width: 200px;
     display: flex;
     justify-content: space-between;
 }
-
 .container {
     margin: 0 100px;
     height: 80vh;
@@ -56,30 +51,25 @@ footer {
     justify-content: center;
     align-items: center;
 }
-  
 label {
     color: #555
-  }
-  
+}
 h1 {
     margin: 0;
     color: orange;
-  }
-  
+}
 form {
     display: flex;
     flex-direction: column;
     height: 175px;
     justify-content: space-between;
-  }
-
+}
 .contact-form{
     display: flex;
     flex-direction: column;
     height: 200px;
     justify-content: space-between;
-  }
-  
+}
 button {
     display: inline-block;
     border: none;
@@ -90,8 +80,7 @@ button {
     font-size: 14px;
     cursor: pointer;
     text-align: center;
-  }
-
+}
 p {
     display: inline;
     line-height: 1.5;
@@ -100,7 +89,6 @@ p {
 img {
     float: left;    
 }
-
 .contact {
     padding: 70px;
 }
@@ -111,7 +99,6 @@ img {
     width: 150px;
     margin: 10px;
 }
-
 .label {
     position: absolute;
     bottom: 20px;
