@@ -57,30 +57,30 @@ footer {
     align-items: center;
 }
   
-  label {
+label {
     color: #555
   }
   
-  h1 {
+h1 {
     margin: 0;
     color: orange;
   }
   
-  form {
+form {
     display: flex;
     flex-direction: column;
     height: 175px;
     justify-content: space-between;
   }
 
-  .contact-form{
+.contact-form{
     display: flex;
     flex-direction: column;
     height: 200px;
     justify-content: space-between;
   }
   
-  button {
+button {
     display: inline-block;
     border: none;
     padding: 5px;
@@ -91,10 +91,41 @@ footer {
     cursor: pointer;
     text-align: center;
   }
+
 p {
     display: inline;
-    float: top;
-    
+    line-height: 1.5;
+    font-size: 16px;
+}
+img {
+    float: left;    
 }
 
-  
+.contact {
+    padding: 70px;
+}
+.image-container {
+    border: 1px solid black;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.label {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+}
+.portfolio-container_images {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.portfolio-container {
+    width: 345px;
+}
+    
+
+
